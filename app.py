@@ -6,7 +6,7 @@ import numpy as np
 import re
 import nltk
 nltk.download("vader_lexicon")
-model = tf.keras.models.load_model('best_multi_sentiment_model(1).keras', compile=False)
+model = tf.keras.models.load_model('best_multi_sentiment_model (1).keras', compile=False)
 
 # --- 1. إعدادات الصفحة ---
 st.set_page_config(page_title="Sentiment AI Pro", page_icon="🤖")
